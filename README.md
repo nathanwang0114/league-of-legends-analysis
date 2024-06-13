@@ -11,7 +11,13 @@ This is an important question because using this information we can determine be
 I cleaned the dataframe by only taking rows where the column 'datacompleteness' is equal to 'complete'. This ensured that I did not having missing values in the columns I needed for my anaylsis. 
 (head of cleaned df here)
 
-(single var plot)
+<iframe
+  src="hist_killsat15.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 explanation
 
 (two var plot)
