@@ -21,7 +21,12 @@ I cleaned the dataframe by only taking rows where the column 'datacompleteness' 
 explanation
 
 (two var plot)
-explanation
+<iframe
+  src="violin_killsat15_side.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 (pivot table)
 explanation
