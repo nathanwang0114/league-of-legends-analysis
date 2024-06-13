@@ -30,8 +30,11 @@ This histogram shows the distribution of 'killsat15'. As we can see, there are m
 
 This violin plot shows us that between red and blue side, the 'killsat15' are relatively identical except that blue side gets slightly more kills in the first 15 minutes. 
 
-print(pivot_table.to_markdown(index=False))
-explanation
+|   ('mean', 'killsat15') |   ('median', 'killsat15') |   ('min', 'killsat15') |   ('max', 'killsat15') |   ('std', 'killsat15') |
+|------------------------:|--------------------------:|-----------------------:|-----------------------:|-----------------------:|
+|                 1.41585 |                         1 |                      0 |                     27 |                2.01243 |
+|                 1.33828 |                         1 |                      0 |                     25 |                1.92851 |
+As we can see in the pivot table, the distribution of the blue and red side 'killsat15' are very similar. 
 
 # Assessment of Missingness
 
