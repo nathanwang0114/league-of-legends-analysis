@@ -21,7 +21,7 @@ I cleaned the dataframe by only taking rows where the column 'datacompleteness' 
 <iframe
   src="hist_killsat15.html"
   width="800"
-  height="600"
+  height="400"
   frameborder="0"
 ></iframe>
 
@@ -30,7 +30,7 @@ This histogram shows the distribution of 'killsat15'. As we can see, there are m
 <iframe
   src="violin_killsat15_side.html"
   width="800"
-  height="600"
+  height="400"
   frameborder="0"
 ></iframe>
 
