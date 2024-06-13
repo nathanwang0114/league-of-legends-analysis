@@ -1,4 +1,4 @@
-# League of Legends Analysis
+# Predicting Outcome of a League of Legends Game
 
 # Introduction
 
