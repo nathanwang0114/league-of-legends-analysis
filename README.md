@@ -10,7 +10,7 @@ This is an important question because using this information we can determine be
 
 I cleaned the dataframe by only taking rows where the column 'datacompleteness' is equal to 'complete'. This ensured that I did not having missing values in the columns I needed for my anaylsis. 
 
-'| side   |   killsat15 |   gamelength | datacompleteness   | champion   |   patch | teamname   |   teamdeaths |   total cs |   totalgold |   wardsplaced |     dpm |    cspm |   monsterkills |\n|:-------|------------:|-------------:|:-------------------|:-----------|--------:|:-----------|-------------:|-----------:|------------:|--------------:|--------:|--------:|---------------:|\n| Blue   |           2 |         1749 | complete           | Renekton   |   14.01 | Team BDS   |           14 |        232 |       12202 |            12 | 345.214 |  7.9588 |              4 |\n| Blue   |           1 |         1749 | complete           | Nocturne   |   14.01 | Team BDS   |           14 |        213 |        9892 |            11 | 156.501 |  7.307  |            197 |\n| Blue   |           1 |         1749 | complete           | Akali      |   14.01 | Team BDS   |           14 |        224 |       10279 |             8 | 391.355 |  7.6844 |              4 |\n| Blue   |           2 |         1749 | complete           | Kalista    |   14.01 | Team BDS   |           14 |        292 |       11703 |            10 | 206.312 | 10.0172 |              7 |\n| Blue   |           0 |         1749 | complete           | Pyke       |   14.01 | Team BDS   |           14 |         44 |        7580 |            75 | 107.17  |  1.5094 |              0 |'
+print(counts[['Quarter', 'Count']].head().to_markdown(index=False))
 
 <iframe
   src="hist_killsat15.html"
@@ -34,6 +34,7 @@ This violin plot shows us that between red and blue side, the 'killsat15' are re
 |------------------------:|--------------------------:|-----------------------:|-----------------------:|-----------------------:|
 |                 1.41585 |                         1 |                      0 |                     27 |                2.01243 |
 |                 1.33828 |                         1 |                      0 |                     25 |                1.92851 |
+
 As we can see in the pivot table, the distribution of the blue and red side 'killsat15' are very similar. 
 
 # Assessment of Missingness
