@@ -9,7 +9,8 @@ This is an important question because using this information we can determine be
 # Data Cleaning and Exploratory Data Analysis
 
 I cleaned the dataframe by only taking rows where the column 'datacompleteness' is equal to 'complete'. This ensured that I did not having missing values in the columns I needed for my anaylsis. 
-(head of cleaned df here)
+
+print(df.head().to_markdown(index=False))
 
 <iframe
   src="hist_killsat15.html"
@@ -29,7 +30,7 @@ This histogram shows the distribution of 'killsat15'. As we can see, there are m
 
 This violin plot shows us that between red and blue side, the 'killsat15' are relatively identical except that blue side gets slightly more kills in the first 15 minutes. 
 
-(pivot table)
+print(pivot_table.to_markdown(index=False))
 explanation
 
 # Assessment of Missingness
