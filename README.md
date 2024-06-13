@@ -18,15 +18,16 @@ I cleaned the dataframe by only taking rows where the column 'datacompleteness' 
   frameborder="0"
 ></iframe>
 
-explanation
+This histogram shows the distribution of 'killsat15'. As we can see, there are mostly 0-5 kills in the first 15 minutes. 
 
-(two var plot)
 <iframe
   src="violin_killsat15_side.html"
   width="800"
   height="600"
   frameborder="0"
 ></iframe>
+
+This violin plot shows us that between red and blue side, the 'killsat15' are relatively identical except that blue side gets slightly more kills in the first 15 minutes. 
 
 (pivot table)
 explanation
